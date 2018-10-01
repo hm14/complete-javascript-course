@@ -1,5 +1,8 @@
-console.log('Adding external JS');
 var firstName = 'Pei';
 var lastName = 'Shing';
-console.log(firstName);
-console.log(lastName);
+var age = 25;
+var isAdult = true;
+
+var statement;
+statement = firstName + ' ' + lastName + ' is ' + age + '. So, they are an adult. ' + isAdult;
+console.log(statement);
