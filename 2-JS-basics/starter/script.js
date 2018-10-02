@@ -10,3 +10,6 @@ statement = firstName + ' ' + lastName + ' is ';
 // using type coercion
 statement += age + '. So, they are an adult. ' + isAdult;
 console.log(statement);
+
+// variable mutation
+age = 'twenty five';
