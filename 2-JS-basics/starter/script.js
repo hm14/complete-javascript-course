@@ -6,5 +6,7 @@ var isAdult = true;
 var statement;
 
 // string concatenation
-statement = firstName + ' ' + lastName + ' is ' + age + '. So, they are an adult. ' + isAdult;
+statement = firstName + ' ' + lastName + ' is ';
+// using type coercion
+statement += age + '. So, they are an adult. ' + isAdult;
 console.log(statement);
